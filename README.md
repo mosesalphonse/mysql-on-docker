@@ -41,5 +41,5 @@ Steps:
         PRIMARY KEY ( emp_id )  
     );  
 
-    insert into emp(emp_firstname, emp_surname) values('user1','A');
-    insert into emp(emp_firstname, emp_surname) values('user2','B');
+    * insert into emp(emp_firstname, emp_surname) values('user1','A');
+    * insert into emp(emp_firstname, emp_surname) values('user2','B');
