@@ -10,10 +10,12 @@ Prerequisite:
 Steps:
 
 1) Clone the project:
-    git clone https://github.com/mosesalphonse/mysql-on-docker.git
+
+    * git clone https://github.com/mosesalphonse/mysql-on-docker.git
     
 2) Run Docker Compose
-    docker-compose.yml up -d
+
+    * docker-compose.yml up -d
     
 3) Login into MySQL and very default schema and tables;
     
