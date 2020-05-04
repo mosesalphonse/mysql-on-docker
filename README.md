@@ -18,20 +18,23 @@ Steps:
 3) Login into MySQL and very default schema and tables;
     
     a) Login as Root User using terminal: (Refer docker-compose.yml file for password)
-        docker exec -it mysql-on-docker_db_1 mysql -uroot -p
+    
+        * docker exec -it mysql-on-docker_db_1 mysql -uroot -p
         
     b) Login as normal user using terminal  :(Refer docker-compose.yml file for password)
-        docker exec -it mysql-on-docker_db_1 mysql -uuser -p
+    
+        * docker exec -it mysql-on-docker_db_1 mysql -uuser -p
 
 4) To verify Volumes, you may create some database, tables and insert some records, then you may kill docker and bring up again, make sure your data should be available after spin up your MYSQL container again;
 
     you may refer the below script to create some table and its values;
     
-    create database db1;
+    
+    * create database db1;
 
-    use db1;
+    * use db1;
 
-    CREATE TABLE emp(  
+    * CREATE TABLE emp(  
         emp_id INT NOT NULL AUTO_INCREMENT,  
         emp_firstname VARCHAR(100) NOT NULL,  
         emp_surname VARCHAR(100) NOT NULL,  
